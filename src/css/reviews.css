@@ -67,6 +67,13 @@
     font-weight: 600;
     text-align: center;
     margin: 0 auto;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.send-review-btn:hover,
+.send-review-btn:focus {
+    background-color: #fd9222;
+    color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
