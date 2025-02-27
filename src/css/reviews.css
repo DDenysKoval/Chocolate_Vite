@@ -1,0 +1,87 @@
+.reviews-section {
+    padding: 60px 0;
+}
+
+.reviews-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 32px;
+}
+
+.reviews-title-span {
+    color: #fd9222;
+}
+
+.swiper {
+    margin-bottom: 32px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    height: 275px;
+}
+
+.swiper-slide {
+    margin-top: 42px;
+}
+
+.swiper-card {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    height: 200px;
+    background: #ffffff;
+    position: relative;
+    padding: 56px 24px 24px;
+    box-shadow: 0 0px 20px 0 rgba(17, 17, 17, 0.03);
+    background: #fff;
+}
+
+.reviews-img {
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.reviews-subtitle {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reviews-text {
+    text-align: center;
+}
+
+.send-review-btn {
+    display: block;
+    border: 1px solid #fd9222;
+    border-radius: 100px;
+    width: 165px;
+    height: 41px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-section {
+        padding: 80px 0;
+    }
+
+    .send-review-btn {
+        width: 222px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .reviews-section {
+        padding: 100px 0;
+    }
+}
