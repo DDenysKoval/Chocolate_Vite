@@ -9,6 +9,7 @@
     background-position: center;
     height: 620px;
     border-radius: 30px;
+    margin-bottom: 60px;
 }
 
 .hero-title {
@@ -119,6 +120,7 @@
         background-image: linear-gradient(rgba(30, 24, 35, 0.4), rgba(30, 24, 35, 0.4)),
             url(/img/hero-tab@1x.webp);
         height: 890px;
+        margin-bottom: 40px;
     }
     
     .hero-title {
@@ -160,6 +162,7 @@
         background-image: linear-gradient(rgba(30, 24, 35, 0.4), rgba(30, 24, 35, 0.4)),
             url(/img/hero-desk@1x.webp);
         height: 600px;
+        margin-bottom: 72px;
     }
 
     @media screen and (min-resolution: 192dpi) {
